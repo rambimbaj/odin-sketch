@@ -1,0 +1,27 @@
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+#canvasContainer {
+    max-width: 600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.canvasChild {
+    width:15px;
+    height:15px;
+    border: solid 0.5px black;
+    margin:1px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div :hover {
+    background-color:brown;
+
+}
